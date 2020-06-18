@@ -1,5 +1,8 @@
 # React Language Context
 
+# The task
+* ceate a reach app with the structure semilar with the one bellow able to pass context between components
+
 ## Components Structure
 * __AppLang.js__ (Context Provider)
     * __Child.js__ (stateless)

@@ -20,7 +20,7 @@ export default class AppLang extends Component {
         }
         console.log(contextValue)
         return (
-            <LanguageContext.Provider contextValue={contextValue}>
+            <LanguageContext.Provider value={contextValue}>
                 <div className='AppLang'>
                     <LangControls
                         onSetLang={this.handleSetLang}
